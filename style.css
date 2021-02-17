@@ -7,7 +7,14 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
 body {
+  margin: 0;
+  width: 100vw;
   height: 100vh;
 }
 
@@ -102,23 +109,45 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  min-height: 100px;
-  max-height: 120px;
+  min-height: 70px;
+  max-height: 90px;
   background-color: rgb(242, 242, 242);
+  font-size: 0.8rem;
+}
+
+footer a {
+  color: rgb(133, 133, 133);
+}
+
+footer div {
+  margin-top: 2px;
 }
 
 #footer1 {
   width: 100%;
   height: fit-content;
-  margin: 15px 10px 15px 30px;
+  margin: 15px 10px 30px 60px;
 }
 
-#footer2 {
+/*#footer2 {
   width: 100%;
   height: fit-content;
-}
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 5px 0px 20px 0px;
+}*/
 
 #footer3 {
+  display: flex;
+  justify-content: space-between;
   width: 100%;
   height: fit-content;
+  margin-bottom: 70px;
+}
+
+#footer3 ul {
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 30px;
 }
