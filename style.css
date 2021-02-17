@@ -46,7 +46,7 @@ li {
 }
 
 #logo {
-  width: 100%;
+  width: 90%;
   cursor: pointer;
   display: flex;
   align-self: center;
@@ -54,11 +54,11 @@ li {
 }
 
 .mainContainer {
-  position: absolute;
+  position: fixed;
   top: 30%;
   left: 50%;
   margin-top: -50px;
-  margin-left: -175px;
+  margin-left: -200px;
   /* background-color: red; */
   padding: 50px;
   display: flex;
@@ -89,11 +89,14 @@ li {
 
 .buttonsContainer {
   display: flex;
+  justify-content: center;
   align-items: center;
   margin: 20px;
 }
 
 .buttons {
+  display: flex;
+  justify-self: space-between;
   margin: 0px 20px 0px 20px;
   padding: 10px;
   border: rgba(0, 0, 0, 0);
@@ -150,4 +153,8 @@ footer div {
   margin-right: 50px;
   margin-left: 50px;
   margin-bottom: 30px;
+}
+
+#footer3 p {
+  transform: translateX(-25%);
 }
